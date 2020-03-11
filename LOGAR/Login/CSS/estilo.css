@@ -1,0 +1,80 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	
+}
+
+body{
+	background-image: url("../ima/imagem.jpg");
+	background-position: 50% 70%;
+	color: white;
+
+}
+
+input{
+	display: block;
+	border-radius: 30px;
+	border: 1px solid black;
+	font-size: 16pt;
+	padding: 10px 20px;
+	height: 55px;
+	width: 400px;
+	margin: 10px;
+	background-color: rgba(255,255,255,0.01);
+	outline: none;
+
+
+	
+}
+
+input[type=submit]{
+	background-color: #FF0066;
+	cursor: pointer;
+	color: #fff;
+	border: none;
+
+}
+
+div#corp{
+	/*background-color: red;*/
+	margin: 150px;
+	
+}
+
+div#corp h1{
+	text-align: center;
+	color: white;
+}
+
+div#corp input{
+	width: 420px;
+	margin: 10px auto 0px auto;
+}
+
+div#msgerro{
+	width: 420px;
+	margin: 10px auto;
+	padding: 20px;
+	background-color: rgba(255,0,0,0.6);
+	border: 1px solid rbg(165,42,42);
+	text-align: center;
+	font-size: 16pt;
+	color: white;
+
+}
+
+::-webkit-input-placeholder {
+   color: #fff;
+}
+ 
+:-moz-placeholder { /* Firefox 18- */
+   color: #fff;  
+}
+ 
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #fff;  
+}
+ 
+:-ms-input-placeholder {  
+   color: #fff;  
+}
